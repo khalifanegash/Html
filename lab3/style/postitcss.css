@@ -1,0 +1,172 @@
+﻿
+body{
+    
+   
+    text-align:left;
+}
+.wrap{
+width:70%;
+ margin:10px auto;
+ clear:both;
+}
+nav {
+    text-align: center;
+    background: #4788F4;
+    border: solid 2px blue;
+    height:40px;  
+    width:100%;
+    margin:2px auto;
+    border-radius:5px;
+}
+nav ul{
+    text-align:center;
+    list-style:none;
+    margin:0 auto;
+    
+} 
+nav ul li{
+    display:inline-block;
+    
+} 
+a { text-decoration:none;}
+a:link,a:visited{
+     padding:10px 40px;
+    display:inline-block;
+    height:20px;
+    color:black;   
+}
+a:hover , a:active{
+    background-color:#ffd800;
+    color:blue;
+    border-radius:5px;
+}
+
+/*.post1{
+width:70px;
+height:62px;
+border:2px solid #fff;
+margin:100px auto;
+text-overflow:unset;
+background-color: #e5e2e2;
+padding:10px;
+border-radius: 10%;
+ transform: rotate(10deg);
+ overflow:hidden;
+
+}
+.child{
+    background-color:#f5e3e3;
+    color:black;
+    text-align:center;
+    /*height:193px;
+    overflow:hidden;
+    border-radius: 10%;
+    font-size:30px;
+   transition: all 1s ease-in-out;
+   
+}
+.child:hover{
+    background-color: hotpink;
+    color: aqua;
+    transform:scale(1.5,1.5) rotate(10deg);
+
+}
+.post2{
+ width:200px;
+height:192px;
+border:2px solid #fff;
+margin:-300px auto ;
+text-overflow:unset;
+background-color: #e5e2e2;
+padding:10px;
+border-radius: 10%;
+ transform: rotate(-10deg);
+ position:fixed;
+  
+}*/
+
+h1{
+    font-family:'Times New Roman';
+}
+p{
+    width:50px;
+    height:80px;
+    overflow:hidden;
+    border: 2px solid blue;
+    border-radius: 10%;
+    transform: rotate(10deg);
+    font-size:30px;
+    
+}
+p:hover{
+    width:190px;
+    height:160px;
+}
+
+/*---footer---*/
+footer{
+    text-align: center;
+    background: #4788F4;
+    border: solid 2px blue;
+    height:40px;  
+    width:100%;
+    margin:20px auto;
+    border-radius:5px;
+   
+}
+@media only screen and (max-width:768 px){ 
+
+ body {
+        background-color: yellow;
+    }
+
+    #whatami:before {
+        content: "HEJ tablet!";
+    }
+
+    #frame {
+        background-color: white;
+        height: 700px;
+        width: 600px;
+        border-radius: 50px;
+    }
+
+    #screen {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 550px;
+        height: 500px;
+        border: 2px solid black;
+        background-color: gray;
+        background-image: url('../Images/Samsung.jpg');
+    }
+
+    @media only screen and (max-width: 480px) {
+        body {
+            background-color: red;
+        }
+
+        #whatami:before {
+            content: "HEJ smartphone!";
+        }
+
+        #frame {
+            background-color: white;
+            height: 700px;
+            width: 350px;
+            border-radius: 50px;
+        }
+
+        #screen {
+            position: absolute;
+            top: 100px;
+            left: 30px;
+            width: 300px;
+            height: 500px;
+            border: 2px solid black;
+            background-color: gray;
+            background-image: url('../Images/Samsung.jpg');
+        }
+    }
+}

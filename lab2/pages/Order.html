@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+m
+<html>
+<head>
+    <title>World Shopping</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="khalifanegash" />
+    <meta name="description" content="Shopping" />
+    <style>
+        input:required {
+            border: 2px solid red;
+        }
+        img{
+            width: 150px;
+        }
+    </style>
+    <!-- <link href="style/stilig.css" rel="stylesheet" />-->
+</head>
+<body>
+    <header>
+        <h1>Försäljning</h1>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="Order.html">Order</a></li>
+                <li><a href="recipe.html">recipe</a></li>
+                <li><a href="function.html">function</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Klänning</legend>
+                        <figure>
+                            <img src="../images/27.jpg" alt="klänning" />
+                            <figcaption>klänningar</figcaption>
+                        </figure>
+                        <span>799kr</span><br />
+                        <input type="number" min="0" max="10" value="0" />
+                        <button type="submit" value="submit">sale</button>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Jeans</legend>
+                        <figure>
+                            <img src="../images/jeans-59.jpg" alt="jeans" />
+                            <figcaption>jeans</figcaption>
+                        </figure>
+                        <span>899kr</span><br />
+                        <input type="number" min="0" max="10" value="0" />
+                        <button type="submit" value="submit">sale</button>
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Kjol</legend>
+                        <figure>
+                            <img src="../images/kjol-2.jpg" alt="kjolar" />
+                            <figcaption>Kjolar</figcaption>
+                        </figure>
+                        <span>799kr</span><br />
+                        <input type="number" min="0" max="10" value="0" />
+                        <button type="submit" value="submit">sale</button>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>väst</legend>
+                        <figure>
+                            <img src="../images/c-johan-vast.jpg" alt="väst" />
+                            <figcaption>C-johan väst</figcaption>
+                        </figure>
+                        <span>399kr</span><br />
+                        <form>
+
+                            <input type="number" min="0" max="10" value="0" />
+                            <button type="submit" value="submit">kkk</button>
+                        </form>
+                    </fieldset>
+                </td>
+                <td>
+
+                    <fieldset>
+                        <legend> Watch</legend>
+                        <figure>
+                            <img src="../images/xxLL.jpg" alt="watch" />
+                            <figcaption>GANT watch</figcaption>
+                        </figure>
+                        <span>3599kr</span><br />
+                        <form action="recipe.html">
+                        <input type="number" min="0" max="10" value="0" />
+                        <button type="submit" value="submit">WWW</button>
+                   </form>
+                     </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Tröjor</legend>
+                        <figure>
+                            <img src="../images/julianna-.jpg" alt="tröjor" />
+                            <figcaption>Tröjor</figcaption>
+                        </figure>
+                        <span>1399kr</span><br />
+                        <form action="recipe.html">
+                            <input type="number" min="0" max="10" value="0" />
+                            <input type="submit" value="TTT" />
+                        </form>
+                    </fieldset>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <form action="recipe.html" method="get" autocomplete="off">
+        <div>
+
+
+
+
+
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <fieldset id="userinfo">
+                        <legend>user info</legend>
+                        <label>
+                            user name:
+                            <input required type="text" name="user name" autofocus />
+                        </label>
+                        <label>
+                            Email:
+                            <input type="email" name="email" required="required" />
+                        </label>
+                        <label>
+                            Password:
+                            <input type="password" name="pw" required="required" />
+                        </label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset id="delivery">
+                        <legend>delivery address</legend>
+                        <label>
+                            Name:
+                            <input type="text" name="name" />
+                        </label>
+                        <label>
+                            street:
+                            <input type="text" name="atreet" />
+                        </label>
+                        <label>
+                            Zip:
+                            <input type="number" name="zip" />
+                        </label>
+                        <label>
+                            Town:
+                            <input type="text" name="town" />
+                        </label>
+                        <label>
+                            Phone number:
+                            <input type="number" name="phone number" />
+                        </label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset id="payment">
+                        <legend>delivery address</legend>
+                        <label>
+                            Name:
+                            <input type="text" name="name" />
+                        </label>
+                        <label>
+                            street:
+                            <input type="text" name="street" />
+                        </label>
+                        <label>
+                            Zip:
+                            <input type="number" name="zip" />
+                        </label>
+                        <label>
+                            Town:
+                            <input type="text" name="town" />
+                        </label>
+                        <label>
+                            Phone number:
+                            <input type="number" name="phone number" />
+                        </label>
+                        <label>
+                            Project Number:
+                            <input type="number" name="project number" />
+                        </label>
+                    </fieldset>
+                    <input type="submit" name="submit" value="send" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <footer>
+        <p>
+            copyright&copy; 2016  <br />
+            All rights are save<br />
+            khalifanegash
+        </p>
+    </footer>
+</body>
+</html>

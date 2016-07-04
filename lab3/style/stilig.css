@@ -1,0 +1,159 @@
+﻿body{
+    background-color:#efe9e9;
+   font-family:Arial;
+   line-height:1.5;
+   text-align:left;
+}
+.body{    
+    width:70%;
+    margin:10px auto;
+    clear:both;
+}
+
+   
+
+nav ul{
+    text-align:center;
+    list-style:none;
+    margin:0 auto;
+}
+nav ul li{
+    
+   display:inline-block;  
+}
+a { text-decoration:none;}
+a:link , a:visited{
+    color:#efe9e9;
+    padding:10px 40px;
+    display:inline-block;
+    height:20px;
+}
+a:hover , a:active{
+    background-color:#faefb5;
+    color:black;
+
+}
+.post1 {
+    /*style post1*/
+    margin: 20px;
+    float: left;
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: #faefb5;
+    transform: rotate(10deg);
+    border-radius: 10%;
+   }
+.post1:hover ,.post1 p:hover{
+    width:300px;
+    height:300px;
+    font-size:20px;
+}
+
+/*------------------------------*/
+.post02 {
+    /*style post1*/
+    margin: 20px;
+    border: 2px solid #000000;
+    width: 200px;
+    height: 200px;
+    float:left;
+    background-color: #808080;
+    transform: rotate(10deg);
+    border-radius: 10px;
+   }
+.post02 p:hover{
+    width:300px;
+    height:300px;
+    font-size:50px;
+}
+.post02 p{
+    width:200px;
+    font-size:28px;
+    margin: 10px;
+    float: left;
+    border: 2px solid #000000;
+  
+    height: 180px;
+    background-color: yellowgreen;
+    transform: rotate(10deg);
+    border-radius: 10px;
+
+}
+footer{text-align: center;
+    background: #4788F4;
+    border: solid 2px blue;
+    height:40px;  
+    width:100%;
+    margin:20px auto;
+    border-radius:5px;
+}
+.pargraph{
+    font-family:'Times New Roman';
+}
+nav {
+    width: 100%;
+    margin: 2px auto;
+    height: 40px;
+    background-color: #4788F4;
+    border-radius: 5px;
+    background: #4788F4;
+     border: solid 2px blue;
+}
+/*
+ @media only screen and (max-width: 768px) {
+ body {
+        background-color: yellow;
+    }
+
+    #whatami:before {
+        content: "I'm a tablet!";
+    }
+
+    #frame {
+        background-color: white;
+        height: 700px;
+        width: 600px;
+        border-radius: 50px;
+    }
+
+    #screen {
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        width: 550px;
+        height: 500px;
+        border: 2px solid black;
+        background-color: gray;
+        background-image: url('../Images/Samsung.jpg');
+    }
+
+    @media only screen and (max-width: 480px) {
+        body {
+            background-color: red;
+        }
+
+        #whatami:before {
+            content: "I'm a smartphone!";
+        }
+
+        #frame {
+            background-color: white;
+            height: 700px;
+            width: 350px;
+            border-radius: 50px;
+        }
+
+        #screen {
+            position: absolute;
+            top: 100px;
+            left: 30px;
+            width: 300px;
+            height: 500px;
+            border: 2px solid black;
+            background-color: gray;
+            background-image: url('../Images/Samsung.jpg');
+        }
+    }
+}
+    */
